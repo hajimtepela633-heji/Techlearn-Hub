@@ -1,0 +1,40 @@
+body{
+	background-color:white;
+	font-family:Arial, sans-serif;
+	margin:0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+}
+
+header{
+	background-color: green;
+	margin-bottom: 20px;
+
+}
+ 
+ .main-content{
+ 	flex: 1;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding: 20px;
+ }
+
+ 
+
+  .topic-card a{
+  	display: inline-block;
+  	padding: 15px 25px;
+  	background-color: #1a103c;
+  	color: white;
+  	text-decoration: none;
+  	border-radius: 10px;
+  	font-weight: bold;
+  	gap: 50px;
+  }
+
+
+
+

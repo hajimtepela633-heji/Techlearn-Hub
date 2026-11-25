@@ -5,31 +5,126 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Techlearn Hub</title>
+   <style>
+   	
+   	h1{
+   		text-align: center;
+
+
+   	}
+
+   	.main-content{
+   		padding-left: 30px;
+   		color: green;
+   	}
+
+   	.form{
+   		text-align: center;
+   	}
+
+   	.text{
+   		margin:auto;
+   		width: 30%;
+   		margin-top: 10px;
+   		background-color: white;
+   		padding: 10px;
+   		margin-bottom:5px ;
+
+   	}
+
+   	.feedback{
+   		background-color: black;
+   		color: white;
+   		width: 8%;
+   		border-radius:5px;
+   		cursor: pointer;
+   	}
+
+   	.feedback:hover{
+   		background-color: blue;
+   		opacity: 0.7;
+   		color: white;
+   	} 
+
+   	video{
+   		padding-top: 30px;
+   		padding-left: 50px;
+   	}
+
+   	p4{
+   		padding-left: 50px;
+   		color: blue;
+   	}
+
+   </style>
+
 </head>
 <body>
 
 
 <header>
 
-	<h1 style="color:black;font-size: 30px;font-family: Arial, sans-serif; text-align: center;">TECHLEARN HUB</h1>
+	<div class="navbar">
+	<img src="image/icons/haji2.png" alt="logo" class="logoo">
+    </div>
 	
-       <main class="main-content">
+	<h1 class="top-head">TECHLEARN HUB</h1>
+	
+	
+      <nav class="nav-content">
 			<nav class="topic-card">
 				<a href="index.html">Home</a>
 				<a href="about_us.html">About us</a>
 				<a href="contact_us.html">Contact us</a>
 				<a href="login.html">logout</a>
 			</nav>
-	</main>
+	</nav>
+
+	
+
 
 	</header>
 
 
 	<h1><b>Contact Us</b></h1>
-	<p> <b>We'd love to Hear From You</b></p>
-	At Techlearn Hub, we value communication and feedback from our learning community.<br>whether you a question about our tutorials,need assistance accessing learning resources,want to report a problem, or have a suggestion for improving our platform, we are ready to hear from you.
+
+	<main class="main-content">
+
+	<p><b>We'd love to Hear From You</b></p>
+
+	<p>At Techlearn Hub, we value communication and feedback from our learning community.</p>
+
+	<p>whether you a question about our tutorials,need assistance accessing learning resources,want to report a problem, or have a suggestion for improving our platform, we are ready to hear from you.</p>
+
+      </main>
+
+      <div class="form">
+
+      <form method="POST">
+      	<input type="email" name="email" required placeholder="Enter email" class="text"><br>
+      	<input type="password" name="password" required placeholder="Enter password" class="text"><br>
+      	<textarea placeholder="comment" class="text">body</textarea><br>
+      	<button type="submit" class="feedback">submit</button>
+
+      </form>
+
+  </div>
+
+  <p4>Angalia video acha mdomo</p4>
+
+  <video controls width="300px">
+
+  	<source src="image/icons/JETLII.mp4" type="video/mp4">
+  	
+  </video>
 	
-	form nitaweka hapa
+	
+<footer>
+
+<p>Follow TechLearn Hub on our official social media platforms.</p>
+<p>© 2026 TechLearn Hub. All Rights Reserved.</p>
+
+</footer>
 
 </body>
 </html>

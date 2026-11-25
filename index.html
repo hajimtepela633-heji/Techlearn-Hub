@@ -7,7 +7,46 @@
 	<title>Techlearn Hub</title>
 	
     <style>
- 
+    	
+
+    	h1{ 
+    	text-align: center; 
+           color: green;
+    	}
+
+    	.main-content{
+    		padding-left: 30px;
+    	
+    	}
+
+
+    	.gallery-grid{
+    		display: grid;
+    		grid-template-columns: repeat(3, 1fr);
+    		gap: 12px;
+    		max-width: 900px;
+    		margin:0 auto;
+    		padding: 15px;
+
+    	}
+    	
+    	.gallery-grid img{
+    		width: 100%;
+    		aspect-ratio: 1/1;
+    		object-fit: cover;
+    		border-radius: 8px;
+    	}
+
+    	.song{
+    		width:30%;
+    		margin-top: 30px;
+    		padding-left: 50px;
+    	}
+
+    	p4{
+
+    		padding-left: 50px;
+    	}
 
 
     	
@@ -17,24 +56,67 @@
 <body>
 
 <header>
-	<h1 style="color:black;font-size: 30px;font-family: Arial, sans-serif; text-align: center;">TECHLEARN HUB</h1>
+
+	<div class="navbar">
+	<img src="image/icons/haji2.png" alt="logo" class="logoo">
+    </div>
+
+	<h1 class="top-head">TECHLEARN HUB</h1>
 	
-       <main class="main-content">
+       <nav class="nav-content">
 			<nav class="topic-card">
 				<a href="index.html">Home</a>
 				<a href="about_us.html">About us</a>
-				<a href="contact_us.html">Contact us</a>
+				<a href="contact_us.html" id="active">Contact us</a>
 				<a href="login.html">logout</a>
 			</nav>
-	</main>
+	</nav>
+
+
 	</header>
+	<main class="main-content">
 
 
-	<h1>welcome to Techlearn Hub</h1>
+	<h1>welcome to Techlearn Hub !</h1>
 
-<h2><b>Learning Technology.Build Your Future<b></h2>
-	Welcome to Techlearn Hub,your destinations for practical technology knowledge and digital skills development.<br>Explore easly-to-follow tutorials,improve your technical abilities, and access valuable learning resources designed to help you grow in the digital world.<br>whether you are biginner or experinced learner, we provide the knowledge and resources you need to move forward.
+<h2>Learning Technology,Build Your Future</h2>
 
+	<p>Welcome to Techlearn Hub,your destinations for practical technology knowledge and digital skills development.</p>
+
+	<p>Explore easly-to-follow tutorials,improve your technical abilities, and access valuable learning resources designed to help you grow in the digital world.</p>
+
+		<p>whether you are biginner or experinced learner, we provide the knowledge and resources you need to move forward.</p>
+
+</main>
+
+
+  <div class="gallery-grid">
+	<img src="image/icons/cyber1.jpg">
+	<img src="image/icons/cyber2.jpg">
+	<img src="image/icons/cyber3.jpg">
+	
+	<img src="image/icons/db1.jpg" >
+	<img src="image/icons/db2.jpg">
+	<img src="image/icons/db4.jpg">
+	
+	<img src="image/icons/net1.jpg">
+	<img src="image/icons/net2.jpg" >
+	<img src="image/icons/net3.jpg" >
+	
+	</div>
+
+<P4 style="color: red;">Acha kuongea sikiliza music kidogo</P4>
+<audio controls class="song">
+	<source src="image/icons/13 - Anisamehe.mp3" type="audio/mp3">
+	
+</audio>
+
+<footer>
+
+<p>Follow TechLearn Hub on our official social media platforms.</p>
+<p>© 2026 TechLearn Hub. All Rights Reserved.</p>
+
+</footer>
 
 </body>
 </html>
